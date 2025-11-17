@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Note } from '../types';
+import type { Note } from '../types';
 import { loadAllNotes, getStats } from '../services/dataLoader';
 import NoteCard from '../components/note/NoteCard';
 import { BookOpen, Sparkles, Calendar } from 'lucide-react';

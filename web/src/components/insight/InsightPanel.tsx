@@ -1,4 +1,4 @@
-import { Analysis } from '../../types';
+import type { Analysis } from '../../types';
 import { Heart, Lightbulb, Sparkles, MessageCircle } from 'lucide-react';
 
 interface InsightPanelProps {

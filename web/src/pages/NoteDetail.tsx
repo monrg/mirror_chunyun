@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { NoteWithAnalysis } from '../types';
+import type { NoteWithAnalysis } from '../types';
 import { loadNoteWithAnalysis } from '../services/dataLoader';
 import InsightPanel from '../components/insight/InsightPanel';
 import { ArrowLeft, Calendar } from 'lucide-react';

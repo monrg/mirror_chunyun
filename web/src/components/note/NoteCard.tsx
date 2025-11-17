@@ -1,4 +1,4 @@
-import { Note } from '../../types';
+import type { Note } from '../../types';
 import { Calendar, FileText } from 'lucide-react';
 
 interface NoteCardProps {
