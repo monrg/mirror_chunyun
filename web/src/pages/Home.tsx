@@ -13,22 +13,30 @@ export default function Home() {
 
   useEffect(() => {
     async function loadData() {
+      console.log('🏠 [Home] 开始加载数据...');
       try {
+        console.log('🏠 [Home] 调用 loadAllNotes()...');
         const [notesData, statsData] = await Promise.all([
           loadAllNotes(),
           getStats()
         ]);
+        console.log('🏠 [Home] 收到笔记数据:', notesData.length, '篇');
+        console.log('🏠 [Home] 收到统计数据:', statsData);
         setNotes(notesData.slice(0, 10)); // 只显示最新的10篇
         setStats(statsData);
+        console.log('🏠 [Home] 状态已更新');
       } catch (error) {
-        console.error('Failed to load data:', error);
+        console.error('❌ [Home] 加载失败:', error);
       } finally {
         setLoading(false);
+        console.log('🏠 [Home] 加载完成，loading = false');
       }
     }
 
     loadData();
   }, []);
+
+  console.log('🏠 [Home] 渲染中... loading:', loading, 'notes:', notes.length, 'stats:', stats);
 
   if (loading) {
     return (

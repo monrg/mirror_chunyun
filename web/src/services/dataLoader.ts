@@ -1,15 +1,13 @@
 import type { Note, Analysis, NoteWithAnalysis } from '../types';
 
 // 使用Vite的glob导入功能动态加载所有文件
-// 路径相对于web目录，使用../访问父目录
-const noteFiles = import.meta.glob('../note/emotion_monthly_md/*.md', {
-  eager: false,
-  as: 'raw'
+// 从当前文件(web/src/services/dataLoader.ts)向上两级到项目根目录
+const noteFiles = import.meta.glob('../../note/emotion_monthly_md/*.md', {
+  query: '?raw',
+  import: 'default'
 });
 
-const analysisFiles = import.meta.glob('../统计/内在观察者分析_*.json', {
-  eager: false
-});
+const analysisFiles = import.meta.glob('../../统计/内在观察者分析_*.json');
 
 // 从文件路径中提取日期信息
 function extractDateFromPath(path: string): { year: number; month: number; date: string } | null {
@@ -37,14 +35,20 @@ function generateNoteId(filePath: string): string {
 
 // 加载所有笔记
 export async function loadAllNotes(): Promise<Note[]> {
-  console.log('📚 开始加载笔记文件...');
-  console.log('找到的笔记文件路径:', Object.keys(noteFiles));
+  console.log('📚 [dataLoader] 开始加载笔记文件...');
+  console.log('📁 [dataLoader] 找到的笔记文件数量:', Object.keys(noteFiles).length);
+  console.log('📁 [dataLoader] 笔记文件路径:', Object.keys(noteFiles));
+
   const notes: Note[] = [];
 
   for (const [path, loader] of Object.entries(noteFiles)) {
     try {
+      console.log(`⏳ [dataLoader] 正在加载: ${path}`);
       const content = await loader() as string;
+      console.log(`✓ [dataLoader] 加载成功，内容长度: ${content?.length || 0} 字符`);
+
       const dateInfo = extractDateFromPath(path);
+      console.log(`📅 [dataLoader] 提取日期信息:`, dateInfo);
 
       if (dateInfo) {
         const noteId = generateNoteId(path);
@@ -57,14 +61,17 @@ export async function loadAllNotes(): Promise<Note[]> {
           filePath: path,
           hasAnalysis: true, // 暂时假设都有分析
         });
+        console.log(`✅ [dataLoader] 添加笔记: ${noteId}`);
+      } else {
+        console.warn(`⚠️ [dataLoader] 无法从路径提取日期: ${path}`);
       }
     } catch (error) {
-      console.error(`Failed to load note from ${path}:`, error);
+      console.error(`❌ [dataLoader] 加载失败 ${path}:`, error);
     }
   }
 
   // 按日期倒序排序（最新的在前）
-  console.log(`✅ 成功加载 ${notes.length} 篇笔记`);
+  console.log(`🎉 [dataLoader] 成功加载 ${notes.length} 篇笔记`);
   return notes.sort((a, b) => b.date.localeCompare(a.date));
 }
 
@@ -79,7 +86,7 @@ export async function loadAnalysis(noteId: string): Promise<Analysis | null> {
   // 从noteId推断分析文件路径
   // noteId格式: YYYY-MM-DD 或 YYYY-MM
   const yearMonth = noteId.substring(0, 7); // 取YYYY-MM部分
-  const analysisPath = `../统计/内在观察者分析_${yearMonth}.json`;
+  const analysisPath = `../../统计/内在观察者分析_${yearMonth}.json`;
 
   try {
     const loader = analysisFiles[analysisPath];
