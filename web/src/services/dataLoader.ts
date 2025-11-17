@@ -1,12 +1,15 @@
 import type { Note, Analysis, NoteWithAnalysis } from '../types';
 
 // 使用Vite的glob导入功能动态加载所有文件
-const noteFiles = import.meta.glob('../../note/emotion_monthly_md/*.md', {
-  query: '?raw',
-  import: 'default'
+// 路径相对于web目录，使用../访问父目录
+const noteFiles = import.meta.glob('../note/emotion_monthly_md/*.md', {
+  eager: false,
+  as: 'raw'
 });
 
-const analysisFiles = import.meta.glob('../../统计/内在观察者分析_*.json');
+const analysisFiles = import.meta.glob('../统计/内在观察者分析_*.json', {
+  eager: false
+});
 
 // 从文件路径中提取日期信息
 function extractDateFromPath(path: string): { year: number; month: number; date: string } | null {
@@ -34,6 +37,8 @@ function generateNoteId(filePath: string): string {
 
 // 加载所有笔记
 export async function loadAllNotes(): Promise<Note[]> {
+  console.log('📚 开始加载笔记文件...');
+  console.log('找到的笔记文件路径:', Object.keys(noteFiles));
   const notes: Note[] = [];
 
   for (const [path, loader] of Object.entries(noteFiles)) {
@@ -59,6 +64,7 @@ export async function loadAllNotes(): Promise<Note[]> {
   }
 
   // 按日期倒序排序（最新的在前）
+  console.log(`✅ 成功加载 ${notes.length} 篇笔记`);
   return notes.sort((a, b) => b.date.localeCompare(a.date));
 }
 
@@ -73,7 +79,7 @@ export async function loadAnalysis(noteId: string): Promise<Analysis | null> {
   // 从noteId推断分析文件路径
   // noteId格式: YYYY-MM-DD 或 YYYY-MM
   const yearMonth = noteId.substring(0, 7); // 取YYYY-MM部分
-  const analysisPath = `../../统计/内在观察者分析_${yearMonth}.json`;
+  const analysisPath = `../统计/内在观察者分析_${yearMonth}.json`;
 
   try {
     const loader = analysisFiles[analysisPath];
