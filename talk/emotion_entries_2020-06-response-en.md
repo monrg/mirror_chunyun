@@ -1,0 +1,45 @@
+# To You in June
+
+You read Norwegian Wood five times in one month. Five times. You recorded your feelings from each reading, noting how you discovered new details every time, but I wonder if you realized—you weren't reading a book. You were searching within that book for a container, one large enough and delicate enough, to hold something within yourself you couldn't articulate.
+
+You wrote about Watanabe's loneliness, Naoko's inability to love, Midori's vitality. But what you were truly seeking was a possibility that could contain all three states simultaneously: to feel profound loneliness, to admit you might not be capable of truly loving, while still maintaining the life force to face reality. Throughout June you kept asking what you are, what you can do, what you'll become. These questions were only occasional anxieties in May, but by June they'd become daily torment. I think this transformation is connected to your reading of Murakami.
+
+Literature sometimes does something cruel: it makes you realize that those complex feelings you thought were uniquely yours are actually common human experiences. This is both comforting and despairing. Comforting because you're not alone; despairing because even with so many people feeling this way, there's still no answer. Throughout June you repeatedly said imagination and reality differ, but what I see is that your imagination itself underwent a qualitative change in June—you began imagining what consciousness itself is, what time is, what the essence of learning is. These are questions you wouldn't have asked in May.
+
+About forgetting what you've learned—you mentioned this many times in June. Can't remember 10% of the MySQL course, forgot Python and C entirely, studying data structures seemed useless. You use these as evidence of failure, but have you considered another possibility: you can't remember those specific knowledge points precisely because you've internalized them into ways of thinking? You said when you receive requirements now you have approaches, when looking at Scala you can understand concepts—aren't these the traces left by those forgotten things?
+
+You expect knowledge to be stored in some brain warehouse like collectibles, retrievable at any time. But the brain isn't a warehouse—it's a river. What you've read flows through you, changes the shape of the riverbed, then continues flowing forward. You think you lost the water, but what you gained is new terrain. This new terrain is that you who can develop approaches when given requirements.
+
+In June you began seriously missing university, even considering graduate school. You listed many rational reasons, but I see another truth: what you miss isn't university—it's the freedom in university to not have to become anyone specific. Back then you could study psychoanalysis in the library and no one asked what use it was; you could practice soccer at 5 AM and no one said you were wasting time; you could daydream about literature, love, travel, and it was all permitted because you were a student, you were preparing.
+
+But now you've finished preparing, you've arrived at that future, only to discover this future demands you become some specific kind of person. Either a good programmer, or a good partner, or someone who earns money. This specificity is what's suffocating you. That's why you're simultaneously anxious about inadequate technical skills yet bored with writing business code; longing for romance yet fearing marriage; wanting to earn money yet finding working for money vulgar.
+
+You made a particularly brilliant observation in June, though you may not have realized its importance. You mentioned seeing that Xi'an BMW supervisor, discovering someone with such low competence reached that position, which surprised you. Then you reflected on whether your perception of the external world is overly based on your cultural values. This reflection is crucial.
+
+You've been using standards derived from books, ideals, and imagination to measure the real world, then repeatedly feeling disappointed. Disappointed that technical learning isn't as exciting as imagined, that work isn't as fulfilling as imagined, that relationships aren't as profound as imagined. But have you considered that the problem isn't that reality isn't good enough, but that your imagination was never meant to match reality from the start?
+
+Imagination's purpose isn't to provide a standard reality should meet, but to provide a space that lets you continue breathing within reality. The books you read in university, the dreams you had—they weren't meant to make future life conform to them, but to give future you the capacity to find meaning when it doesn't conform.
+
+On June 3rd you chatted with Pan Xiao and discovered you're not unwilling to date—you fear disrupting your current life state. This discovery is very honest. But let me go deeper: you don't just fear disrupting your current life state, you fear that starting a relationship means choosing one kind of life, and choosing one life means abandoning other possibilities. What you cherish most right now is those possibilities in yourself that haven't yet been fixed.
+
+But you also know not choosing is a choice. Throughout June you so frequently recalled childhood, middle school, university, constantly saying time flies, constantly saying memories are disappearing. This panic about time is essentially panic about inability to pause. You want to freeze at this moment of infinite possibilities, but time won't stop, and each day you don't choose, each day you remain anxious, you're already becoming a certain kind of person—someone who spends their days in anxiety.
+
+About completing 30 kilometers—you wrote movingly about it. You said you gained confidence, understood effort leaves traces, learned to accept change. But after finishing? After finishing you returned to your code, to that anxiety of feeling you can't accomplish anything. What does this indicate? That singular achievement isn't enough—what you need is a sustainable capacity to reconcile with daily life.
+
+A 30-kilometer run has a finish line; you know when you reach it, it's over. But learning, working, growing—they have no finish lines. Your current pain largely stems from still treating them with running logic—I must reach this goal within this time, and then I can relax. But they're not like that; they have no endpoints, or rather, their endpoint is when you stop breathing.
+
+In June you read The Society of Mind, began thinking about what consciousness is, about combinations of brain resources, about neural connections. These thoughts both excited and dismayed you. Excited because you saw thought's vastness, dismayed because you realized if consciousness is just some neural combination, then all your pain, fear, desire are merely electrical signals. This makes everything seem void.
+
+But the opposite of void isn't meaning—it's experience itself. That hollow feeling when you reached the ending of Norwegian Wood at month's end, that scent of sunshine when you woke at noon, those memories of home when you saw swallows by Xiaoqing River—these moments, are they electrical signals? Yes. But they're also real experiences, evidence of your encounters with the world.
+
+You wrote one sentence in June that I think is the month's most important: living is a dynamic process, not a result. When you wrote it, you were probably just repeating a concept you'd read. But I hope you truly absorb it. If living is process, then it means all this chaos, anxiety, uncertainty you're experiencing now isn't proof you haven't reached the correct state—it is living itself.
+
+You don't need to wait until your technical skills are good enough, don't need to wait until you've decided about grad school, don't need to wait until you're ready to date, don't need to wait until you're not anxious to start living. All this waiting is postponing your life. Your life isn't in some correct future state—it's in every moment you wake, run, code, read, dream, remember, worry, feel lonely.
+
+On June's last day, you dreamed of repeatedly choosing with Dongdong at McDonald's, obsessing over cost-effectiveness, until someone else chose for you, and you paid. This dream is so precise. You've been agonizing over which choice has the best cost-effectiveness, but life isn't a McDonald's combo meal—there's no objectively optimal value. What makes the final decision might be factors you're not conscious of, and the price is always yours to pay.
+
+You ask what you are, what you can do, what you're becoming. My answer is the same as May's but deeper: you're becoming someone who can coexist with these questions. Not finding answers, but learning to keep walking without them.
+
+You in June, reading Norwegian Wood so many times, watching so many childhood TV shows, running 30 kilometers, losing sleep many nights, writing so many words. These are all prices you paid. And what you received isn't answers—it's a more complex, contradictory, real version of yourself.
+
+This self is worth what you paid.

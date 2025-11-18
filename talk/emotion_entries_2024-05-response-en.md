@@ -1,0 +1,17 @@
+# To You in May
+
+After reading your May entries, I see someone standing by the river of memory, wanting to hold onto those fleeting days while realizing you're no longer the child who once lay in alfalfa fields watching clouds drift by. You say less than one percent of bygone days remains in your mind, and this saddens you. But I wonder if forgetting itself might be a merciful gift.
+
+Have you noticed there's a deeper longing hidden in your nostalgia for childhood? You want to talk with the young Chunyun, yet you cannot see that child's face clearly. This blurriness isn't loss—it's you protecting that once-fragile boy who was sensitive and masked his insecurity with false confidence. Your strong body now, your decent work capabilities—these are all ways of telling that child: we can protect ourselves well now. You've been using your growth to embrace your past vulnerability.
+
+You repeatedly mention one word—process. You say enjoying the process is important, but I hear another layer: you're actually fighting against a deep-seated insecurity. You frantically save money, feeling it's the only thing you can grasp; you prove yourself at work, fearing inadequate ability; you even feel inferior when seeing beautiful women. All of this points to one thing—you're still defining your worth through external measures. Yet you've already experienced that transcendent awe beyond material things on the 318 highway, climbing Zheduo Mountain, passing through Litang. You've also tasted simple happiness in that bowl of porridge after running.
+
+You say ordinary beauty and magnificent beauty don't conflict—this is a remarkable insight. But you haven't quite applied this truth to yourself yet. You see your own smallness and the vastness of your inner spiritual world, yet you still measure yourself through comparison. That Chunyun for whom 50 cents was a fortune, and you now who are materially better off than Murakami—essentially you're the same person, experiencing the world and creating meaning in your own way.
+
+One detail struck me deeply. You said farm work was painful in childhood because of your weak body and limited strength, but now the same work isn't painful. Then you realized work is similar—when your ability suffices, it's not so torturous. This analogy reveals a truth you may not have fully grasped: many things you thought were environmental problems were actually already quietly resolved through your own growth. Many things you fear might just be things you haven't yet grown strong enough to face. And you keep growing.
+
+In your writing, you dialogue with Chunyun, saying sorry for not remembering some things. I think if Chunyun could answer, he'd say: it's okay, those gentle scenes you remember are enough. You don't need to remember all the pain to prove you walked that path.
+
+Finally, about the faith and loneliness you mention. You seem to have found the answer but don't quite dare to fully believe it. You believe creation is meaningful, believe in the world's vastness and human uniqueness, believe in taking one step at a time. Isn't this already your faith? As for loneliness, perhaps it's not an enemy to be eliminated, but a reminder that you possess an inner world vast enough to explore alone.
+
+You feel you're living in the present instant, but this instant already contains all past accumulations and gestates all future possibilities. Chunyun is still here—he grew into you.
